@@ -24,7 +24,14 @@ This tool uses the Google AI language model to generate detailed descriptions fo
      ```sh
      Google_Api=YOUR_API_KEY_HERE
      ```
+4. Set up your Google API key:
 
+   - pass you api key as the argument -api_key
+     ```sh
+     go run .\main.go -api_key your_api_key
+     ```
+   - After this your api key will be saved in a .env file
+   - After this you don't have to pass the api key that key will be used 
 ## Usage
 
 Run the program with the following command:
@@ -34,6 +41,12 @@ go run main.go -image_path=path/to/your/image.png -prompt="Describe the image in
 ```
 
 Replace `path/to/your/image.png` with the path to your image file and `"Describe the image in detail"` with your desired prompt.
+## Usage for Normal Q/A 
+Run the program with the following command for Normal Q/A :  
+
+```sh
+go run main.go -prompt="What is the meaning of life ?"
+```
 
 ## Configuration
 
