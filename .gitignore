@@ -1,0 +1,15 @@
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+*.flv
+*.mkv
+
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.env
