@@ -24,7 +24,7 @@ This tool uses the Google AI language model to generate detailed descriptions fo
      ```sh
      Google_Api=YOUR_API_KEY_HERE
      ```
-4. Set up your Google API key:
+4. Another way of setting up your Google API key:
 
    - pass you api key as the argument -api_key
      ```sh
